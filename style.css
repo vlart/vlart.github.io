@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	padding: 0;
+  }
+  
+  details {
+	font-size: 20px;
+  }
+  
+  .card-container{
+	display: flex;
+	flex-direction: column;
+	min-width: 350px;
+	max-width: 960px;
+	margin: auto;
+  }
+
+  .card {
+	height: 360px;
+	width: 225px;
+	background-color: ivory;
+	margin:20px  auto;
+	border-radius: 10px;
+	box-shadow: 0 0 8px lightgrey;
+	border: 5px solid ivory;
+	color: transparent;
+	font-size: 1px;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+  }
+  
+  .history-card {
+	display: inline-block;
+	height: 70px;
+	width: 50px;
+	border-radius: 4px; 
+	box-shadow: 0 0 2px lightgrey;
+	color: transparent;
+	font-size: 1px;
+	margin: 2em;
+  }
+  
+  .history {
+	  display: flex;
+	  flex-wrap: wrap;
+	  font-size: 20%;
+	  margin-bottom: 1rem;
+	overflow: scroll;
+	max-height: 250px;
+	overflow: auto;
+  }
+  
+  
+  button {
+	width: 200px;
+	margin: 5px auto;
+  }
+  
+  .number-1 {
+	background-image: url(https://raw.githubusercontent.com/vlart/sorryimages/master/1.png);
+  }
+  .number-2 {
+	background-image: url(https://raw.githubusercontent.com/vlart/sorryimages/master/2.png);
+  }
+  .number-3 {
+	background-image: url(https://raw.githubusercontent.com/vlart/sorryimages/master/3.png);
+  }
+  .number-4 {
+	background-image: url(https://raw.githubusercontent.com/vlart/sorryimages/master/4.png);
+  }
+  .number-5 {
+	background-image: url(https://raw.githubusercontent.com/vlart/sorryimages/master/5.png);
+  }
+  .number-6 {
+	background-image: url(https://raw.githubusercontent.com/vlart/sorryimages/master/7.png);
+  }
+  .number-7 {
+	background-image: url(https://raw.githubusercontent.com/vlart/sorryimages/master/8.png);
+  }
+  .number-8 {
+	background-image: url(https://raw.githubusercontent.com/vlart/sorryimages/master/10.png);
+  }
+  .number-9 {
+	background-image: url(https://raw.githubusercontent.com/vlart/sorryimages/master/11.png);
+  }
+  .number-10 {
+	background-image: url(https://raw.githubusercontent.com/vlart/sorryimages/master/12.png);
+  }
+  .number-11 {
+	background-image: url(https://raw.githubusercontent.com/vlart/sorryimages/master/sorry.png);
+  }
+  .number-12 {
+	background-image: url(https://raw.githubusercontent.com/vlart/sorryimages/master/back.png);
+  }
+  
+  
